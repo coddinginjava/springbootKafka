@@ -9,6 +9,6 @@ public class KafkaConfig {
 
     @Bean
     public NewTopic createNewTopic(){
-        return new NewTopic("topicProgrammaticallyCreated",5,(short)1);
+        return new NewTopic("topicProgrammaticallyCreated",3,(short)1);
     }
 }
